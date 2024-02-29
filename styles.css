@@ -85,7 +85,7 @@ ul {
   margin: 30px auto;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 90%;
 }
 
 #todo-list{
