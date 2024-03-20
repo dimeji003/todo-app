@@ -4,10 +4,40 @@
 
 html, body {
   
+  
+  
   margin: 0;
   padding: 0;
 }
 
+.wrapper{
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+.header{
+  text-align: center;
+  padding-top: 80px;
+}
+
+.container {
+  
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  height: 50vh;
+  display: flex;
+  place-items: center;
+  align-content: center;
+  width: 80%;
+  border-radius: 20px;
+  
+}
 ul {
   margin: 0;
   padding: 0;
@@ -27,15 +57,6 @@ ul {
   margin: 0 auto;
 }
 
-.container {
-  max-width: 650px;
-  margin: 0 auto;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  background-color: grey;
-  height: 100vh;
-}
 
 .title, .controls, .button {
   flex: none;
